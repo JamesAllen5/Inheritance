@@ -18,8 +18,7 @@ class Customer(Person):
         self.__customer_number = customer_number
         self.__mailing_list = mailing_list
 
-        self.print_person()
-
     def print_person(self):
+        Person.print_person(self)
         print("The customer's customer_number is: ", self.__customer_number)
         print("The customer's mailing list preference is: ", self.__mailing_list)

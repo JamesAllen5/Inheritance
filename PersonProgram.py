@@ -8,5 +8,5 @@ per = pc.Person(
 
 cust = pc.Customer("Andrew", "1025 La Salle", 8171234567, "001", True)
 
-per.print_peron()
+per.print_person()
 cust.print_person()
